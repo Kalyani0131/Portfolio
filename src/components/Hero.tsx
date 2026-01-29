@@ -32,7 +32,7 @@ const Hero = () => {
                 View Projects
               </Link>
               <a
-                href="https://drive.google.com/file/d/1jsyxmvT1rBzTm0XEERw-ljiooL1v7RFt/view?usp=sharing"
+                href="https://drive.google.com/file/d/1eRsXrzKr7pP3gCDLsWRaIxpPcftMW8w6/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline"

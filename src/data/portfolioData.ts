@@ -77,10 +77,10 @@ export const personalInfo = {
 
 export const projects: Project[] = [
   {
-    id: 2,
+    id: 1,
     title: "Browser Automation Using AI Agent",
     description: "An AI-powered system enabling browser automation through natural language using LLMs, LangChain, and Playwright.",
-    image: "./public/images/AI_agent.png",
+    image: "images/AI_agent.png",
     technologies: ["Python", "LangChain", "Playwright", "GPT-4o", "Gemini", "Gradio"],
     github: "https://github.com/Kalyani0131/AI-Agent-project", 
     demo: "https://drive.google.com/file/d/1w5j6fB9o64P1950PnXwyDr3sIt2xXDeD/view?usp=sharing", 
@@ -94,7 +94,7 @@ export const projects: Project[] = [
     id: 2,
     title: "Yoga Poses Recommender App",
     description: "A contextual Yoga poses recommender app powered by Firestore, Vector Search, and Gemini 2.0 for generating Yoga pose descriptions, images, and audio.",
-    image: "./public/images/yoga.jpg", 
+    image: "images/yoga.jpg", 
     technologies: ["Firestore", "Vector Search", "Gemini 2.0", "Java", "Google Cloud", "Text-to-Speech", "Google Imagen"],
     github: "https://codelabs.developers.google.com/codelabs/smart-yoga-pose-search-firestore", 
     demo: "https://drive.google.com/file/d/1_7MHjZMJiEoiUocWb0gwyWASOG9PL33m/view?usp=sharing", 
@@ -107,7 +107,7 @@ export const projects: Project[] = [
     id: 3,
     title: "Toy Store Search App",
     description: "A personalized toy store search app using AI, Cloud Databases, and serverless runtimes, enabling contextual searches and custom toy creation based on user inputs.",
-    image: "./public/images/Toystore.png", 
+    image: "images/Toystore.png", 
     technologies: ["AlloyDB", "pgvector", "Gemini 2.0", "Imagen 3", "Cloud Run", "Gen AI Toolbox", "Generative AI", "Python"],
     github: "https://codelabs.developers.google.com/toy-store-app", 
     demo: "https://drive.google.com/file/d/10ipapyHgmawwjD0pJXa8qDAMKUUT54ed/view?usp=sharing", 
@@ -120,7 +120,7 @@ export const projects: Project[] = [
     id: 4,
     title: "Number-Plate-Vision-App",
     description: "A web-based application built with Streamlit that uses computer vision and OCR to detect and extract text from vehicle number plates. This app is ideal for vehicle identification, parking management, and security monitoring.",
-    image: "./public/images/number-plate-vision-app.png", 
+    image: "images/number-plate-vision-app.png", 
     technologies: ["Streamlit", "OpenCV", "Tesseract OCR", "Python"],
     github: "https://github.com/Kalyani0131/Number-plate-vision-app", 
     demo: "https://drive.google.com/file/d/12kzthkIM5AZaY16f9PEE_-6RUm8O4kZu/view?usp=sharing", 
@@ -130,10 +130,33 @@ export const projects: Project[] = [
     results: "Improved vehicle identification accuracy by 85%, automated parking management tasks, and provided a scalable solution for security monitoring."
   },  
 ];
-
 export const experience: ExperienceItem[] = [
   {
     id: 1,
+    company: "DRDO (Defence Research and Development Organisation)",
+    position: "Intern",
+    duration: "Jun 2025 - Jul 2025",
+    description: [
+      "Completed an on-site internship at DRDO CAS, Hyderabad, working on secure document automation solutions.",
+      "Developed a Python-based GUI tool for secure audit document editing with approximately 98% formatting preservation accuracy.",
+      "Implemented efficient text and numeric replacement features while maintaining document layout integrity.",
+      "Enabled offline, user-friendly table data updates in compliance with DRDO security and audit standards.",
+      "Reduced manual document processing time by nearly 60% through automation and optimized workflows."
+    ],
+    technologies: [
+      "Python",
+      "Tkinter Canvas",
+      "GUI Design",
+      "File Handling",
+      "Document Layout Preservation",
+      "Offline Desktop Applications",
+      "Secure Document Processing"
+    ],
+    offerLetter: "https://drive.google.com/file/d/1uddMDu7x7teLpWLqz7e_Qf4HP3dZiIRB/view?usp=sharing",
+    completionCertificate: "https://drive.google.com/file/d/1YQJ2k3DYf6RMnlE4qmBIE0wgAEmWxLG9/view?usp=sharing"
+  },
+  {
+    id: 2,
     company: "InternPe",
     position: "ML Intern",
     duration: "Jul 2024 - Aug 2024",
@@ -147,8 +170,9 @@ export const experience: ExperienceItem[] = [
     technologies: ["Python", "scikit-learn", "Pandas", "NumPy", "Matplotlib"],
     offerLetter: "https://drive.google.com/file/d/1H02My1_SIccok78lB09NfO6allKZ4Ttc/view?usp=sharing",
     completionCertificate: "https://drive.google.com/file/d/1seQBQ-jozDRmatevdnlmSffYjJHaHwKT/view?usp=sharing"
-  },
+  }
 ];
+
 
 export const education: EducationItem[] = [
   {
@@ -177,7 +201,7 @@ export const achievements: Achievement[] = [
     title: "Code Vipassana Season-9",
     description: "Awarded for exceptional performance in Season 9: Agentic Apps with Cloud Databases, Serverless and Open Source Integrations conducted by Google Developer Groups Cloud Kochi. Recognized for extraordinary mastery, dedication, and skill in hands-on learning of Google Cloud.",
     date: "April 2025",
-    image:  "./public/achievements/code-vipasana certification.jpg",
+    image:  "achievements/code-vipasana certification.jpg",
     proof: "https://www.linkedin.com/posts/vadakala-kalyani_googlecloud-codevipassana-ai-activity-7312696532909146112-1-tK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEhwQuMBHWIzLH_F8s7fVNgQS7gh5vAQjqM"
   },  
   {
@@ -185,7 +209,7 @@ export const achievements: Achievement[] = [
     title: "Standard Milestone Achiever - Google Cloud Arcade",
     description: "Reached the Standard Milestone with 16 Arcade Points in the Google Cloud Arcade journey. The experience was filled with hands-on learning, exciting challenges, and valuable collaboration. Received exclusive Google Cloud swag, making the achievement even more memorable. Grateful to the Google Cloud team for the continuous motivation and support.",
     date: "April 2025",
-    image:"./public/achievements/google-swag.jpg",
+    image:"achievements/google-swag.jpg",
     proof: "https://www.linkedin.com/posts/vadakala-kalyani_googlecloud-cloudarcade-learning-activity-7308489196158029825-Gwwh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEhwQuMBHWIzLH_F8s7fVNgQS7gh5vAQjqM" 
   },
 ];
@@ -211,7 +235,7 @@ export const certifications: Certification[] = [
     title: "Google Data Analytics Professional Certificate",
     issuer: "Google via Coursera",
     date: "May 13, 2024",
-    image: "./public/certification/coursera.jpg",
+    image: "certification/coursera.jpg",
     description: "Demonstrated skills in data preparation, processing, analysis, and visualization using tools like spreadsheets, SQL, R, and Tableau.",
     credential: "https://drive.google.com/file/d/1l07FhnAx6_NGwL0Em0qUGt5giW4w8uWW/view?usp=sharing",
   }, 
@@ -220,7 +244,7 @@ export const certifications: Certification[] = [
     title: "GDSC WoW Hyderabad 2024",
     issuer: "Google Developer Student Clubs, Hyderabad",
     date: "April 21, 2024",
-    image: "./public/certification/GDSC.jpg", 
+    image: "certification/GDSC.jpg", 
     description: "Participated in the GDSC WoW Hyderabad 2024, a nationwide conference focused on technology and innovation, organized at MLR Institute of Technology.",
     credential: "https://drive.google.com/file/d/1yG1veDpFjUJmviaJ0Q4PVEaZAwl9oX-2/view?usp=sharing", 
   },  
@@ -229,7 +253,7 @@ export const certifications: Certification[] = [
     title: "OOPs in Java",
     issuer: "Great Learning Academy",
     date: "November 2023",
-    image: "./public/certification/Greatlearn.jpg", 
+    image: "certification/Greatlearn.jpg", 
     description: "Successfully completed an online course on Object-Oriented Programming (OOP) concepts in Java, covering classes, objects, inheritance, polymorphism, and encapsulation.",
     credential: "https://drive.google.com/file/d/1tRMJP82K_5ej3r3wWucWz_VIc020gXCo/view?usp=sharing",
   },
@@ -238,7 +262,7 @@ export const certifications: Certification[] = [
     title: "Summer Of AI Internship Program",
     issuer: "Swecha",
     date: "May 14, 2024 – June 21, 2024",
-    image: "./public/certification/swecha.jpg", 
+    image: "certification/swecha.jpg", 
     description: "Participated in the Summer Of AI Internship Program at Swecha, contributing towards building AI solutions for preserving culture and language advancement.",
     credential: "https://drive.google.com/file/d/1Jf6o9NVtfydT2lFznAnedz6fktqYu9I2/view?usp=sharing", 
   },
@@ -247,7 +271,7 @@ export const certifications: Certification[] = [
     title: "Microsoft Learn Student Ambassador Workshop - Python",
     issuer: "Microsoft Learn Student Ambassadors",
     date: "2024", 
-    image: "./public/certification/python.jpg", 
+    image: "certification/python.jpg", 
     description: "Completed the Microsoft Learn Student Ambassadors workshop focused on Python, hosted by Chamarthi G S Satwika.",
     credential: "https://drive.google.com/file/d/1-ZSRUqeGGQDQI7fK1y1JpDIY5TsczOLu/view?usp=sharing", 
   },
@@ -256,7 +280,7 @@ export const certifications: Certification[] = [
     title: "Stanley Code-A-Thon 2K24 - Participation",
     issuer: "Stanley College of Engineering and Technology for Women",
     date: "13 December 2024",
-    image: "./public/certification/code-a-thon.jpg", 
+    image: "certification/code-a-thon.jpg", 
     description: "Participated in the CODE-A-THON event organized by the Department of AI&DS and Department of Computer Engineering at Stanley College of Engineering and Technology for Women, Hyderabad.",
     credential: "https://drive.google.com/file/d/19DVeXvE6j5W9d8CXqJr91TfUpMPopfxb/view?usp=sharing", 
   },
@@ -265,7 +289,7 @@ export const certifications: Certification[] = [
     title: "Ideathon 2.0 - Participation",
     issuer: "Stanley College of Engineering and Technology for Women",
     date: "19 April 2024",
-    image: "./public/certification/ideathon.jpg", 
+    image: "certification/ideathon.jpg", 
     description: "Participated in Ideathon 2.0 organized by Stanley College of Engineering and Technology for Women in association with WE-HUB, aimed at promoting innovation and startup ideas.",
     credential: "https://drive.google.com/file/d/1EcX3TmY_bZDklJt9nHR5Hy0-ur3E5tlF/view?usp=sharing" ,
   },  
